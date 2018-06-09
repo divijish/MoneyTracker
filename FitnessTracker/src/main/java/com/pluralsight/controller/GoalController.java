@@ -30,6 +30,7 @@ public class GoalController {
 		
 		System.out.println("result has errors: " + result.hasErrors());
 		System.out.println("Goal set: " + goal.getMinutes());
+		//Commiting first then pushing.
 		
 		if(result.hasErrors()) {
 			return "addGoal";
