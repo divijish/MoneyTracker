@@ -29,7 +29,6 @@ public class GoalController {
 	public String updateGoal(@Valid @ModelAttribute("goal") Goal goal, BindingResult result) {
 		
 		System.out.println("result has errors: " + result.hasErrors());
-		System.out.println("Goal Controller");
 		
 		System.out.println("Goal set: " + goal.getMinutes());
 		
