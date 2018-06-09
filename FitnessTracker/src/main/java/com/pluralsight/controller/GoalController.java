@@ -30,7 +30,6 @@ public class GoalController {
 		
 		System.out.println("result has errors: " + result.hasErrors());
 		System.out.println("Goal set: " + goal.getMinutes());
-		//Adding Trifle comments.
 		
 		if(result.hasErrors()) {
 			return "addGoal";
